@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language="JavaScript">
+    function login(){
+    var email=document.getElementById('email').value
+    var pass=document.getElementById('pass').value
+    displayMsg.funcLogin(email,pass)
+    }
+</script>
+</head>
+<body>
+
+<TABLE align="center" border="2">
+
+    <tr>
+        <td colspan="2" align="center">
+            Login Page
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Email: </td>
+            <td><input type="text" id="email"></td>
+    </tr>
+    <tr>
+        <td align="center">Password: </td>
+        <td><input id="pass" type="password"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="button" value="Login" onclick="login()">
+        </td>
+    </tr>
+</TABLE>
+</body>
+</html>
